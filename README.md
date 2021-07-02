@@ -20,13 +20,13 @@ pages = {},
 * transformers 2.6
 
 ## Datasets
-We use Wizard of Wikipedia dataset and modified Holl-E dataset [Kim et al](https://arxiv.org/abs/2002.07510?context=cs.CL) (no validation set).
+We use Wizard of Wikipedia dataset and modified Holl-E dataset released by [Kim et al](https://arxiv.org/abs/2002.07510?context=cs.CL) (no validation set).
 Both datasets have been processed into our defined format, which could be directly used by our model.
 
 The datasets can be downloaded from [here](). After downloading, please create folder `datasets` in the root directory and put the files in it.
 
 ## Running Codes
-Our experiments were all conducted by one NVIDIA TITAN RTX GPU (24GB), and it's better to make sure your GPU memory size is 24GB.
+Our experiments were all conducted by one NVIDIA TITAN RTX GPU (24GB), and it's better to make sure your GPU memory size is 24GB. Otherwise you can reduce the batch size.
 
 In order to save your time, we upload our pretrained checkpoints on the two datasets, and the checkpoints can be downloaded from [here]().
 
