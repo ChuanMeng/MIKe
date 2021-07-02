@@ -1,6 +1,6 @@
 # MIKe (SIGIR 2021 full paper)
 The code for [Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations]().
-![image](https://github.com/ChuanMeng/MIKe/blob/master/figure.png)
+![image](https://github.com/ChuanMeng/MIKe/blob/main/figure.png)
 
 ## Reference
 If you use any source code included in this repo in your work, please cite the following paper.
