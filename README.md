@@ -1,5 +1,5 @@
 # MIKe (SIGIR 2021 full paper)
-The code for [Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations]().
+The code for [Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations](https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/meng-2021-initiative-aware.pdf).
 ![image](https://github.com/ChuanMeng/MIKe/blob/main/figure.png)
 
 ## Reference
@@ -20,15 +20,15 @@ pages = {},
 * transformers 2.6
 
 ## Datasets
-We use Wizard of Wikipedia dataset and modified Holl-E dataset released by [Kim et al](https://arxiv.org/abs/2002.07510?context=cs.CL) (no validation set).
+We use Wizard of Wikipedia dataset and modified Holl-E dataset released by [Kim et al](https://arxiv.org/abs/2002.07510?context=cs.CL).
 Both datasets have been processed into our defined format, which could be directly used by our model.
 
-The datasets can be downloaded from [here](). After downloading, please create folder `datasets` in the root directory and put the files in it.
+The datasets can be downloaded from [here](https://drive.google.com/drive/folders/1Olyxhd3RdZTEo8Ld9u9bi4llLn9FlEYQ?usp=sharing). After downloading, please create folder `datasets` in the root directory and put the files in it.
 
 ## Running Codes
 Our experiments were all conducted by one NVIDIA TITAN RTX GPU (24GB), and it's better to make sure your GPU memory size is 24GB. Otherwise you can reduce the batch size.
 
-In order to save your time, we upload our pretrained checkpoints on the two datasets, and the checkpoints can be downloaded from [here]().
+In order to save your time, we upload our pretrained checkpoints on the two datasets, and the checkpoints can be downloaded from [here](https://drive.google.com/drive/folders/1GLRlp3KOKuK4C1qx0hJAimt7dF837Vq0?usp=sharing).
 
 Please create folder `output` in the root directory and put the files in it.
 
@@ -98,11 +98,4 @@ Holl-E (multiple golden references)
 ```
 
 ### Retraining
-To execute training, please run:
-```
-Wizard of Wikipedia
-python -u MIKe/Run.py --name MIKe_WoW --dataset wizard_of_wikipedia --mode train
-
-Holl-E
-python -u MIKe/Run.py --name MIKe_Holl_E --dataset holl_e --mode train
-```
+The related code will be released in a few days...
