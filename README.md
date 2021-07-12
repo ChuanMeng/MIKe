@@ -1,5 +1,5 @@
 # MIKe (SIGIR 2021 full paper)
-The code for [Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations](https://staff.fnwi.uva.nl/m.derijke/wp-content/papercite-data/pdf/meng-2021-initiative-aware.pdf).
+The code for [Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations](https://dl.acm.org/doi/10.1145/3404835.3462824).
 ![image](https://github.com/ChuanMeng/MIKe/blob/main/figure.png)
 
 ## Reference
