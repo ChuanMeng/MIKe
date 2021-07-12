@@ -6,11 +6,11 @@ The code for [Initiative-Aware Self-Supervised Learning for Knowledge-Grounded C
 If you use any source code included in this repo in your work, please cite the following paper.
 ```
 @inproceedings{meng2021initiative,
-author = {Meng, Chuan and Ren, Pengjie and Chen, Zhumin and Ren, Zhaochun and Xi, Tengxiao and de Rijke, Maarten},
+author = {Meng, Chuan and Ren, Pengjie and Chen, Zhumin and Ren, Zhaochun and Xi, Tengxiao and Rijke, Maarten de},
 title = {Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations},
 year = {2021},
 booktitle = {SIGIR},
-pages = {},
+pages = {522–532},
 }
 ```
 
