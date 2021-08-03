@@ -2,6 +2,8 @@
 The code for [Initiative-Aware Self-Supervised Learning for Knowledge-Grounded Conversations](https://dl.acm.org/doi/10.1145/3404835.3462824).
 ![image](https://github.com/ChuanMeng/MIKe/blob/main/figure.png)
 
+Please contact Chuan Meng (chuan.meng@outlook.com) if you have any question.
+
 ## Reference
 If you use any source code included in this repo in your work, please cite the following paper.
 ```
